@@ -26,6 +26,9 @@ public class Main {
         atm.withdrawCash("123212",5000);
         atm.depoistcash("1232122222",70000);
 
+
+
+
         double updatedbalance = atm.checkBalnce("123212");
         System.out.println("your balnce is : "+updatedbalance);
 
